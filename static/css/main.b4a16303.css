@@ -1,0 +1,2 @@
+body{background-color:#000}.App{left:50%;position:absolute;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.drum-pads{display:grid;grid-template-columns:1fr 1fr 1fr;margin:30px}.drum-pad{height:100px;width:100px}#display{background-color:grey;color:#fff;display:grid;font-weight:700;padding:10px;place-items:center}@media (min-width:768px){.drum-pad{height:150px;width:150px}#drum-machine{grid-gap:1rem;display:grid;gap:1rem}#display{font-size:1.5rem}}
+/*# sourceMappingURL=main.b4a16303.css.map*/
