@@ -20,16 +20,25 @@ body {
     height: 100px;
 }
 
-#drum-machine {
-    border: 1px solid white;
-}
-
 #display {
     color: white;
     font-weight: 700;
-    display: flex;
-    justify-content: center;
-    margin-top: 25px;
+    display: grid;
+    place-items: center;
     background-color: grey;
     padding: 10px;
+}
+
+@media (min-width: 768px) {
+    .drum-pad {
+        width: 150px;
+        height: 150px;
+    }
+    #drum-machine {
+        display: grid;
+        gap: 1rem;
+    }
+    #display {
+        font-size: 1.5rem;
+    }
 }
